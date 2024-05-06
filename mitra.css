@@ -1,0 +1,163 @@
+*{
+    padding: 0%;
+    font-family: Arial;
+    color: white;
+}
+
+
+body{
+    background-color: oklab(0.33 -0.01 -0.04); 
+    overflow-y:scroll;
+}
+
+.logo img{
+    float: left;
+    height: 90px;
+    width: 90px;
+
+}
+
+.logo img:hover{
+    transform: scale(0.9);
+}
+
+#navid{
+    border-style:2px solid silver;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    top: 100px;
+}
+
+li {
+    padding: 16px;
+    
+}
+
+li:hover{
+    width: 150px;
+    cursor:pointer;
+     border-bottom: 1px solid orange;
+    
+}
+
+li a:hover{
+    color: orange;
+} 
+
+li i:hover{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+li a img{
+    height: 24px;
+    width: 24px;
+    padding-right: 10px;
+    color: white;
+}
+
+
+
+.background img{
+    float: right;
+    width: 80%;
+    height: 500px;
+    
+  
+
+}
+.user{
+    font-size: 25px;
+    color: rgb(237, 149, 17);
+    text-align: center;
+    
+   
+}
+h1{
+    font-size:20px;
+    text-align:center;
+}
+
+h2{
+    font-size: 25px;
+    color: rgb(237, 149, 17);
+    text-align: center;
+    position: absolute;
+    top:40%;
+   margin-left: 40%;
+   
+}
+
+h3{
+   font-size: 12px;
+   color: white;
+   text-align: center;
+   position: absolute;
+   top: 48%;
+   margin-left: 70%;
+
+}
+
+.searchbar .btn{
+    height:43px;
+    width:500px;
+    border-radius: 10px;
+    text-align: left ;
+    position: absolute;
+    opacity: 30%;
+    top: 58%;
+    margin-left: 35%;
+    
+   
+    
+}
+
+::placeholder{
+    color:black;
+    opacity: 100%;
+    text-align: start;
+  
+}
+
+.searchbar i{
+    top:60%;
+    margin-left:50%;
+    position: absolute;
+    color: silver;
+}
+.login i{
+    float: right;
+    padding: 10px;
+    position: absolute;
+    margin-left: 85%;
+    color: orange;
+    height: 80px;
+    width: 80px;
+}
+
+.login i:hover{
+ transform: scale(0.9);
+}
+ 
+.camera{
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.top1{
+    font-size: 11px;
+    float: left;
+    margin-left: 7px;
+    margin-top: -10px;
+}
+
